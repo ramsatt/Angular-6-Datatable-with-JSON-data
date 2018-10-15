@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+table>thead>tr>th{
+    background-color: darkslategrey !important;
+    color: azure;
+}
+
+.dataTables_paginate{
+
+}
+
+.dataTables_paginate a {
+    padding: 6px 9px !important;
+    background: #ddd !important;
+    border-color: #ddd !important;
+}
+
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+    background-color: #337ab7;
+    color: #ffffff;
+}
